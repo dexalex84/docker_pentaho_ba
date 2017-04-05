@@ -48,7 +48,7 @@ Dockerfile can work in two ways
    - RUN wget -O pentaho-server-ce-7.0.0.0-25.zip https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/7.0/pentaho-server-ce-7.0.0.0-25.zip \
     --progress=bar:force
  
- ## Troubleshoting:
+ ## Troubleshooting:
  
  Need to wait about 5-7 minutes on 1 start. If there is nothing on web http://docker_host_ip:8080/pentaho/Home:
   - Connnect to app_pentaho_ba via command: 
