@@ -5,11 +5,11 @@ This is a project with Pentaho BA 7.0 CE deployed on docker
 
 ## Folders:
 
-init
-   db_repo - sql files to create Pentaho BA repo DB
-   app_pentaho_ba - files with final Pentaho BA absolute PATH to customize Server
+- init
+   - db_repo - sql files to create Pentaho BA repo DB
+   - app_pentaho_ba - files with final Pentaho BA absolute PATH to customize Server
 
-distr - folder with distributive of Pentaho BA
+- distr - folder with distributive of Pentaho BA (empty on github - need to put file if needed)
 
 ## Services:
 1) db_repo - PostgreSQL DB (latest version) from docker hub
