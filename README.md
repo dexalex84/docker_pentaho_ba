@@ -26,14 +26,13 @@ This is a project with Pentaho BA 7.0 CE deployed on docker
 
 ## Instructions:
 1) Install docker
-2) Clone repository to local folder
+2) clone repository to local folder
 3) run docker-compose up -d to  (downloading necessary data and starting containers)
-4) run ./prepare_environment.sh (creating DB repo for and customizing defaults to work with PostgreSQL)
+4) run ./prepare_environment.sh (creating DB repo and customizing defaults to work with PostgreSQL)
 5) run docker-compose exec app_pentaho_ba ./start_pentaho.sh (starting BA web server)
 
 ## Customizing tips:
-Dockerfile:
- can work with two ways
+Dockerfile can work in two ways
 1) using downloaded archive with Pentaho BA 7.0 CE
 
    Uncomment these rows
