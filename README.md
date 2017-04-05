@@ -21,8 +21,8 @@ This is a project with Pentaho BA 7.0 CE deployed on docker
   
 2) app_pentaho_ba - Penatho BA 7.0
    
-   web: http://<docker>:8080/pentaho/Home
-   <docker> IP of host machine where was installed Docker
+   web: http://docker_host_ip:8080/pentaho/Home
+   docker_host_ip - IP of host machine where was installed Docker
 
 ## Instructions:
 1) Install docker
