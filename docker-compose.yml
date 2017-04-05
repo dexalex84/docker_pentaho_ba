@@ -1,0 +1,19 @@
+  version: "3"
+  services: 
+    app_pentaho_ba: 
+      build: .
+      tty: true
+      container_name: app_pentaho_ba
+      ports:
+        - "8080:8080"
+      depends_on:
+        - db_repo
+      image: app_pentaho_ba 
+    db_repo:
+      restart: always
+      image: postgres:latest
+      container_name: db_repo
+      ports:
+        - "5432:5432"
+      environment:
+        - DEBUG=false     
