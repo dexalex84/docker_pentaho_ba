@@ -37,15 +37,15 @@ Dockerfile can work in two ways
 
    Uncomment these rows
 
-   RUN echo "Get Pentaho BA CE distributive from host docker folder (for fast start and debug)"
-   COPY /distr/pentaho-server-ce-7.0.0.0-25.zip /opt/pentaho/
+   - RUN echo "Get Pentaho BA CE distributive from host docker folder (for fast start and debug)"
+   - COPY /distr/pentaho-server-ce-7.0.0.0-25.zip /opt/pentaho/
 
-2) using distributive downloaded from sourceforge
+2) using distributive downloaded from sourceforge (default)
 
    Uncomment these rows 
  
-   RUN echo "Get Pentaho BA CE distributive from sourceforge"
-   RUN wget -O pentaho-server-ce-7.0.0.0-25.zip https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/7.0/pentaho-server-ce-7.0.0.0-25.zip \
+   - RUN echo "Get Pentaho BA CE distributive from sourceforge"
+   - RUN wget -O pentaho-server-ce-7.0.0.0-25.zip https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/7.0/pentaho-server-ce-7.0.0.0-25.zip \
     --progress=bar:force
  
  ## Troubleshoting:
