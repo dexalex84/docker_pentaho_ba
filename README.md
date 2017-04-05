@@ -51,7 +51,7 @@ Dockerfile can work in two ways
  ## Troubleshooting:
  
  Need to wait about 5-7 minutes on 1 start. If there is nothing on web http://docker_host_ip:8080/pentaho/Home:
-  - Connnect to app_pentaho_ba via command: 
+  - Connect to app_pentaho_ba via command: 
   
     docker-compose exec app_pentaho_ba  /bin/bash
     
