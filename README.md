@@ -35,12 +35,14 @@ This is a project with Pentaho BA 7.0 CE deployed on docker
 Dockerfile:
  can work with two ways
 1) using downloaded archive with Pentaho BA 7.0 CE
+
    Uncomment these rows
 
    RUN echo "Get Pentaho BA CE distributive from host docker folder (for fast start and debug)"
    COPY /distr/pentaho-server-ce-7.0.0.0-25.zip /opt/pentaho/
 
 2) using distributive downloaded from sourceforge
+
    Uncomment these rows 
  
    RUN echo "Get Pentaho BA CE distributive from sourceforge"
