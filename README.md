@@ -1,4 +1,4 @@
-#  Pentaho BA on Docker
+#  Pentaho BA 7.0 CE on Docker
  
 
 This is a project with Pentaho BA 7.0 CE deployed on docker
