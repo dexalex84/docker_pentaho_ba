@@ -53,28 +53,32 @@ Dockerfile can work in two ways
  
  Need to wait about 5-7 minutes on 1 start. If there is nothing on web http://docker_host_ip:8080/pentaho/Home:
   - Connect to app_pentaho_ba via command: 
-```  
-    docker-compose exec app_pentaho_ba  /bin/bash
-```    
-  - Check logs: 
-```    
-    tail -f tomcat/logs/catalina.out
-```    
+ 
+    `docker-compose exec app_pentaho_ba  /bin/bash`
+    
+  - Check logs:
+  
+    `tail -f tomcat/logs/catalina.out`
+
     or from host:
-```    
-    docker-compose exec app_pentaho_ba tail -f tomcat/logs/catalina.out
-```
+   
+    
+    `docker-compose exec app_pentaho_ba tail -f tomcat/logs/catalina.out`
+
+
     Also possible to stop 
     
-```
-    ./stop-pentaho.sh 
-```
+
+    `./stop-pentaho.sh`
+
+
      and start debug version of service 
-```
-    ./start-pentaho-debug.sh
-```
+     
+
+    `./start-pentaho-debug.sh`
+
      
  ## Related docs:
- [Instructon] for installing Pentaho BA CE on CentOS  (https://gist.github.com/dexalex84/334bdd189dd923a63e80c45300fb30be)
+ Instructon for installing Pentaho BA CE on CentOS [To Gist](https://gist.github.com/dexalex84/334bdd189dd923a63e80c45300fb30be)
 
  
