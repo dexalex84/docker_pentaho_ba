@@ -26,5 +26,5 @@
  echo
 
  echo now you can start Pentaho BA server by command
- echo docker-compose exec app_pentaho_ba /opt/pentaho/pentaho-server/start-pentaho.sh
+ echo docker-compose exec -T app_pentaho_ba /opt/pentaho/pentaho-server/start-pentaho.sh
 
